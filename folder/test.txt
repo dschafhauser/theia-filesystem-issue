@@ -1,0 +1,9 @@
+1. Set Java LSP log level to verbose:
+
+{
+   "java.trace.server": "verbose"
+}
+
+2. Open the Java LSP channel on the Output view
+
+3. Move a .java file from root to "folder" or vice versa. Observe the "workspace/didChangeWatchedFiles" event.
