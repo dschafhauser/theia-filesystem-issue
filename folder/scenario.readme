@@ -1,0 +1,10 @@
+1. Set Java or Json LSP log level to verbose:
+
+{
+   "java.trace.server": "verbose",
+   "json.trace.server": "verbose"
+}
+
+2. Open the Java or Json LSP channel on the Output view
+
+3. Move a .java or .json file from the root folder to "folder" or vice versa. Observe the "workspace/didChangeWatchedFiles" event.
